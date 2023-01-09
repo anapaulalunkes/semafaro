@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    height: 100vh; /* vh é usado para altura e vw para lagura, isso quer dizer que ela vai utilizar aquele espaço da pág. Ex.: um 100vh corresponde a 100%, e quer dizer que vai ocupar todo espaço da pág*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.button{
+    width: 90px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
